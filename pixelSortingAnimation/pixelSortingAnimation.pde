@@ -1,6 +1,8 @@
 /*
-------------------------- PIXEL SORT ANIMATION -------------------------
+-------------------------- PIXEL SORT ANIMATION --------------------------
 by Aleix Ferré || The Coding Train Channel
+
+(ca:)
 
 Aquest programa en Java ens permet ordenar els pixels d'una imatge entrada
 pel valor que nosaltres vulguem. Això crea un efecte a la imatge bastant bonic
@@ -13,11 +15,32 @@ i artístic. Sembla humà però és una màquina.
 
 *-> Eficiència: O(n^2); [Selection Sort]
 
-*-> Recomanacions:  No passar MAI d'imatges de més de 200-400px x 200-400px
+*-> Recomanacions:  No passar MAI d'imatges de més de 200-400x200-400 px
                     Això podria provocar que el programa tardi massa en veure
                     els resultats.
-                    Ex: Una imatge en 4K (en una CPU actual) tardaria 81 anys en
-                    ordenar-se!
+                    Ex: Una imatge en 4K [3840x2160px] (en una CPU actual) tardaria
+                    81 anys en ordenar-se!
+                    
+-----------------------------------------------------------------------------------
+(en:)
+
+This Java program allows us to sort the pixels of an image for the value
+that we want. This creates a pretty nice and artistic effect on the image.
+It looks human but it is a machine.
+
+* -> Notes:  This program is quite inefficient due to the SELECTION order
+             DIRECT [Selection Sort]. This could be fixed with a QuickSort
+             (not yet implemented). This may affect the final result already
+             that each algorithm orders the lists differently.
+
+* -> Efficiency: O(n^2); [Selection Sort]
+
+* -> Recommendations:  Never spend more images of 200-400x200-400 px
+                       This could cause the program to take too long to see
+                       the results
+                       Ex: An image in 4K [3840x2160px] (in a current CPU) would take
+                       81 years to finish!
+
 */
 
 PImage img; // Original
@@ -37,7 +60,7 @@ void setup(){
 void draw(){
   for(int i = 0; i<100; i++){ // Actualitzem 100 pixels per frame
     //Selection Sort 
-    float record=-1;
+    float record = -1;
     int selectedPixel = index;
     for (int j = index; j < sorted.pixels.length; j++){
       color pix = sorted.pixels[j];
