@@ -41,7 +41,7 @@ void draw(){
     int selectedPixel = index;
     for (int j = index; j < sorted.pixels.length; j++){
       color pix = sorted.pixels[j];
-      float b = saturation(pix);
+      float b = saturation(pix); // saturation || hue || brightness
       if (b > record) {
         selectedPixel = j;
         record = b;
