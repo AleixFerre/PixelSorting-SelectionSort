@@ -2,6 +2,14 @@
 
 This is a program in Processing which can order you all the pixels of an img and makes great forms and colors!
 
+### Index
+
+- [Examples](#examples)
+
+- [Formats](#formats)
+
+-----------------------------------------------------------------------
+
 ### Examples:
 
 
@@ -13,6 +21,7 @@ Bright sunflower example:
 
 ![composed2](pixelSortingAnimation/composed_2.png)
 
+-----------------------------------------------------------------------
 
 ### Formats:
 
