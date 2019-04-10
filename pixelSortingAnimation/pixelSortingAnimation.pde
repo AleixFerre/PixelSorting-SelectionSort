@@ -80,9 +80,9 @@ void draw(){
       index++; // Actualitza l'index per anar al seguent pixel
     }
     else {
+      saveFrame("composed.png"); // Guardem una foto de la pantalla
       index = 0;
       sorted = img.get(); // Ho tornem a començar
-      saveFrame("composed.png"); // Guardem una foto de la pantalla
     }
     println("FPS:", floor(frameRate));
   }
