@@ -48,9 +48,9 @@ PImage sorted; // Artificial, modificada per nosaltres
 int index = 0; // Index del pixel actual de 'img'
 
 void setup(){
-  size(800,400);
+  size(400,200);
   img = loadImage("rainbow.jpg"); // INTRODUEIX LA IMATGE QUE VULGUIS DE LA CARPETA /data/
-  image(img, 0, 0, 400, 400);
+  image(img, 0, 0, 200, 200);
   
   sorted = createImage(img.width, img.height, RGB);
   sorted = img.get(); // Copiem tots els pixels d'una imatge a una nova creada per nosaltres
@@ -79,8 +79,13 @@ void draw(){
     if (index < sorted.pixels.length-1){ // Si encara hi ha pixels a analitzar
       index++; // Actualitza l'index per anar al seguent pixel
     }
+    else {
+      index = 0;
+      sorted = img.get(); // Ho tornem a començar
+      saveFrame("composed.png"); // Guardem una foto de la pantalla
+    }
     println("FPS:", floor(frameRate));
   }
   sorted.updatePixels(); // Actualitzem els pixels de la nostra imatge al canvi que hem fet
-  image(sorted, 400, 0); // Ho mostrem per pantalla
+  image(sorted, 200, 0); // Ho mostrem per pantalla
 }
