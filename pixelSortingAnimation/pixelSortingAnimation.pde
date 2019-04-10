@@ -1,6 +1,6 @@
 /*
 -------------------------- PIXEL SORT ANIMATION --------------------------
-by Aleix Ferré || The Coding Train Channel
+by Aleix Ferré and Javi || The Coding Train Channel
 
 (ca:)
 
