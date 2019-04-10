@@ -12,3 +12,11 @@ Some Rainbow colors example:
 Bright sunflower example:
 
 ![composed2](pixelSortingAnimation/composed_2.png)
+
+
+### Formats:
+
+You can sort the pixels by the:
+ - Hue: The color type, ranges from 0 to 255 by default.
+ - Saturation: The vibrancy of the color, 0 to 255 by default.
+ - Brightness: The, well, brightness of the color, 0 to 255 by default.
