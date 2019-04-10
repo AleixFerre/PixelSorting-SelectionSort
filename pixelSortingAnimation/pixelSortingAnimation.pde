@@ -24,7 +24,7 @@ i artístic. Sembla humà però és una màquina.
 -----------------------------------------------------------------------------------
 (en:)
 
-This Java program allows us to sort the pixels of an image for the value
+This Processing program allows us to sort the pixels of an image for the value
 that we want. This creates a pretty nice and artistic effect on the image.
 It looks human but it is a machine.
 
