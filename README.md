@@ -30,3 +30,8 @@ Some Rainbow colors example:
 Bright sunflower example:
 
 ![composed2](pixelSortingAnimation/composed_2.png)
+
+
+-----------------------------------------------------------------------
+
+Good job!
