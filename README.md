@@ -34,6 +34,7 @@ Bright sunflower example:
 
 -----------------------------------------------------------------------
 
-Good job!
+Good work!
 
 Aleix Ferré Juan
+
