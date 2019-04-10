@@ -35,3 +35,6 @@ Bright sunflower example:
 -----------------------------------------------------------------------
 
 Good work!
+
+Aleix Ferré Juan
+
