@@ -1,6 +1,10 @@
 /*
 -------------------------- PIXEL SORT ANIMATION --------------------------
+<<<<<<< HEAD
 by Aleix Ferré and Javi || The Coding Train Channel
+=======
+by Aleix Ferré and Javi Lopez || The Coding Train Channel
+>>>>>>> 35986d4d4f5c2e2b63134220586ccecb27219c35
 
 (ca:)
 
