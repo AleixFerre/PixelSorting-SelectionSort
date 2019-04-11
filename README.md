@@ -25,11 +25,11 @@ You can sort the pixels by the:
 
 Some Rainbow colors example:
 
-![composed1](pixelSortingAnimation/composed.png)
+![composed1](.readmeFiles/composed.png)
 
 Bright sunflower example:
 
-![composed2](pixelSortingAnimation/composed_2.png)
+![composed2](.readmeFiles/composed_2.png)
 
 
 -----------------------------------------------------------------------
