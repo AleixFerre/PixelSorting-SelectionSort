@@ -1,14 +1,11 @@
 /*
 -------------------------- PIXEL SORT ANIMATION --------------------------
-<<<<<<< HEAD
-by Aleix Ferré and Javi || The Coding Train Channel
-=======
-by Aleix Ferré and Javi Lopez || The Coding Train Channel
->>>>>>> 35986d4d4f5c2e2b63134220586ccecb27219c35
+
+by Aleix Ferré || The Coding Train Channel
 
 (ca:)
 
-Aquest programa en Java ens permet ordenar els pixels d'una imatge entrada
+Aquest programa en Processing ens permet ordenar els pixels d'una imatge entrada
 pel valor que nosaltres vulguem. Això crea un efecte a la imatge bastant bonic
 i artístic. Sembla humà però és una màquina.
 
